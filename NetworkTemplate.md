@@ -21,16 +21,13 @@ You must inspect your traffic capture to answer the following questions:
 ## Vulnerable Windows Machine
 
 1. Find the following information about the infected Windows machine:
-    - Host name = LAPTOP-5WKHX9YG.frank-n-ted.com
-    - IP address = 10.6.12.203
-    - MAC address = 84:3a:4b:6d:fc:e2
-
     - Host name = ROTTERDAM-PC
     - IP address = 172.16.4.205
     - MAC address = 00:59:07:b0:63:a4
     
 2. What is the username of the Windows user whose computer is infected?
-   - 
+   - ip.src==172.16.4.205 and kerberos.CNameString
+   - **matthijs.devries**
 3. What are the IP addresses used in the actual infection traffic?
    - 
 4. As a bonus, retrieve the desktop background of the Windows host.
