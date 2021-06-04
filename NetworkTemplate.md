@@ -31,15 +31,15 @@ You must inspect your traffic capture to answer the following questions:
    - **185.243.115.84**
       - **green.mattingsolutions.com**
 4. As a bonus, retrieve the desktop background of the Windows host.
-
+   - **tweet tweet**
 ---
 
 ## Illegal Downloads
 
 1. Find the following information about the machine with IP address `10.0.0.201`:
-    - MAC address = ** **
-    - Windows username = ** **
-    - OS version = ** **
+    - MAC address = **00:16:17:18:66:c8**
+    - Windows username = **elmer.blanco**
+    - OS version = **Mozilla/5.0 (Windows NT 10.0; Win64; x64)**
 
 2. Which torrent file did the user download?
-   - **BOO**
+   - **Betty_Boop_Rhythm_on_the_Reservation.avi.torrent**
