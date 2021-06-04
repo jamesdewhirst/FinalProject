@@ -37,8 +37,9 @@ You must inspect your traffic capture to answer the following questions:
 ## Illegal Downloads
 
 1. Find the following information about the machine with IP address `10.0.0.201`:
-    - MAC address
-    - Windows username
-    - OS version
+    - MAC address = ** **
+    - Windows username = ** **
+    - OS version = ** **
 
 2. Which torrent file did the user download?
+   - **BOO**
