@@ -6,13 +6,12 @@ _TODO_ Complete this report as you complete the Network Activity on Day 3 of cla
 You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
-   - **192.168.1.110/wordpress/**
+   - **frank-n-ted.com**
 2. What is the IP address of the Domain Controller (DC) of the AD network?
    - **10.6.12.12**
-   - **Frank-n-Ted-DC.frank-n-ted.com**
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
    - Once you have found the file, export it to your Kali machine's desktop.
-   - **/files/june11.d11.d11 HTTP/1.1**
+   - **/files/june11.dll HTTP/1.1**
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
 5. What kind of malware is this classified as?
    - **Trojan Malicious Malware**
@@ -29,7 +28,8 @@ You must inspect your traffic capture to answer the following questions:
    - `ip.src==172.16.4.205 and kerberos.CNameString`
    - **matthijs.devries**
 3. What are the IP addresses used in the actual infection traffic?
-   - 
+   - **185.243.115.84**
+      - **green.mattingsolutions.com**
 4. As a bonus, retrieve the desktop background of the Windows host.
 
 ---
