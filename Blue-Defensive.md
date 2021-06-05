@@ -25,11 +25,11 @@ The following machines were identified on the network:
 - Capstone
   - **Operating System**: Linux
   - **Purpose**: Virtual Machine
-  - **IP Address**: 192.158.1.105
+  - **IP Address**: 192.168.1.105
 - Elk
   - **Operating System**: Ubuntu
   - **Purpose**: Elasticsearch / Kibana / Logstash
-  - **IP Address**: 192.158.1.100
+  - **IP Address**: 192.168.1.100
 
 ### Description of Targets
 _TODO: Answer the questions below._
