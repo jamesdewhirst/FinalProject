@@ -12,24 +12,24 @@
 The following machines were identified on the network:
 - Kali
   - **Operating System**: Debian Kali
-  - **Purpose**:
-  - **IP Address**:
+  - **Purpose**: The Penetration Tester
+  - **IP Address**: 192.168.1.90
 - Target 1
-  - **Operating System**: 
-  - **Purpose**:
-  - **IP Address**:
+  - **Operating System**: Debian Linux
+  - **Purpose**: The WordPress Host
+  - **IP Address**: 192.168.1.100
 - Target 2
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
+  - **Operating System**: Debian Linux
+  - **Purpose**: Optional Attack Target
+  - **IP Address**: 192.168.1.115
 - Capstone
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
+  - **Operating System**: Linux
+  - **Purpose**: Virtual Machine
+  - **IP Address**: 192.158.1.105
 - Elk
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
+  - **Operating System**: Ubuntu
+  - **Purpose**: Elasticsearch / Kibana / Logstash
+  - **IP Address**: Linux
 
 ### Description of Targets
 _TODO: Answer the questions below._
