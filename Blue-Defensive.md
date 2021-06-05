@@ -29,7 +29,7 @@ The following machines were identified on the network:
 - Elk
   - **Operating System**: Ubuntu
   - **Purpose**: Elasticsearch / Kibana / Logstash
-  - **IP Address**: Linux
+  - **IP Address**: 192.158.1.100
 
 ### Description of Targets
 _TODO: Answer the questions below._
