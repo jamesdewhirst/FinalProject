@@ -31,7 +31,7 @@ You must inspect your traffic capture to answer the following questions:
    - **185.243.115.84**
       - **green.mattingsolutions.com**
 4. As a bonus, retrieve the desktop background of the Windows host.
-   - **tweet tweet**
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/empty.gif%253fss%26ss2img.gif)
 ---
 
 ## Illegal Downloads
