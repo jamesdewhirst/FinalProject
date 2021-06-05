@@ -8,18 +8,28 @@
 - Suggestions for Going Further
 
 ### Network Topology
-_TODO: Fill out the information below._
 
 The following machines were identified on the network:
-- Name of VM 1
+- Kali
+  - **Operating System**: Debian Kali
+  - **Purpose**:
+  - **IP Address**:
+- Target 1
+  - **Operating System**: 
+  - **Purpose**:
+  - **IP Address**:
+- Target 2
   - **Operating System**:
   - **Purpose**:
   - **IP Address**:
-- Name of VM 2
+- Capstone
   - **Operating System**:
   - **Purpose**:
   - **IP Address**:
-- Etc.
+- Elk
+  - **Operating System**:
+  - **Purpose**:
+  - **IP Address**:
 
 ### Description of Targets
 _TODO: Answer the questions below._
