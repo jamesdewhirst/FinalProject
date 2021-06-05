@@ -20,7 +20,7 @@ This scan identifies the services below as potential points of entry:
   - List of
   - Exposed Services
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
+_TODO: Fill out the list below. Include severity, and CVE numbers, if possible.
 
 The following vulnerabilities were identified on each target:
 - Target 1
