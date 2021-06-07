@@ -72,7 +72,18 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 - **Flag2: fc3fd58dcdad9ab23faca6e9a36e5**
 - Exploit Used:
-    - Same exploit used to capture flag1 adn flag2.
+    - Same exploit used to capture flag1.
+    - Once `wp-config.php` was found, we gained access to the database (as Michael) MySQL was used to locate flag3.
+        - Commands:
+            - `cd ../`
+            - `ls`
+            - `cat flag2.txt`
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/flag2.png)
+
+- **Flag3: fc3fd58dcdad9ab23faca6e9a36e5**
+- Exploit Used:
+    - Same exploit used to capture flag1 and flag2.
     - Once `wp-config.php` was found, we gained access to the database (as Michael) MySQL was used to locate flag3.
         - Commands:
             - `mysql -u root -pR@v3nSecurity`
@@ -81,7 +92,6 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
             - `seletct * from wp_posts;`
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/sp_post.png)
-
 
 
 
