@@ -10,8 +10,7 @@
 Nmap scan results for each machine reveal the below services and OS details:
 
 ```bash
-nmap 192.168.1.110
-  # TODO: Insert scan output
+$ nmap 192.168.1.110
 ```
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/1-nmap.png)
 
