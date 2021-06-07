@@ -70,21 +70,28 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/flag1.png)
 
-![Flag 1 location](/Images/flag1-location.png "Flag 1 location")
-
-- **Flag2: fc3fd58dcdad9ab23faca6e9a3e581c**
+- **Flag2: fc3fd58dcdad9ab23faca6e9a36e5**
 - Exploit Used:
-    - Same exploit used to gain Flag 1.
-    - Capturing Flag 2: While SSH in as user Michael Flag 2 was also found.
-        - Once again traversing through directories and files as before Flag 2 was found in /var/www next to the html folder that held Flag 1.
+    - Same exploit used to capture flag1 adn flag2.
+    - Once `wp-config.php` was found, we gained access to the database (as Michael) MySQL was used to locate flag3.
         - Commands:
-            - `ssh michael@192.168.1.110` 
-            - `pw: michael`
-            - `cd ../` 
-            - `cd ../`
-            - `cd var/www`
-            - `ls -l`
-            - `cat flag2.txt`
+            - `mysql -u root -pR@v3nSecurity`
+            - `connect wordpress`
+            - `show tables`
+            - `seletct * from wp_posts;`
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/sp_post.png)
+
+
+
+
+
+
+
+
+
+
+
 
 ![Flag 2 location](/Images/flag2-location.png "Flag 2 location")
 
