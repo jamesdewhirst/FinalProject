@@ -30,17 +30,21 @@ This scan identifies the services below as potential points of entry:
 The following vulnerabilities were identified on each target:
 **Target 1**
 ```
-* Weak User Password
+- Weak User Password
 - WordPress - user enumeration and unsalted user password hash
-** Escalation of privilege
+- Escalation of privilege
 ```
 
 ---
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
-The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
+The Red Team was able to penetrate Target 1 and retrieve the following confidential data:
+
+**Target 1**
+**flag1** ```.b9bbcb33e11b80be759c4e844862482d```
+
+
 - Target 1
   - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
     - **Exploit Used**
