@@ -108,7 +108,7 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/wphash.png)    
 
-   - Used John the Ripper to unhash Steven's password
+- Used John the Ripper to unhash Steven's password
     - `john wp_hash.txt`
     - `john --show wp_hash.txt`
 
