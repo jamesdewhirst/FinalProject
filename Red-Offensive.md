@@ -55,18 +55,18 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 - Accessing user Michael
     - due to a weak password we were able to guess Michael's password
-    - 'ssh michael@192.168.1.110'
-    - Password: 'michael'
+    - `ssh michael@192.168.1.110`
+    - Password: `michael`
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/SSH.png)
 
-- Accessing var/www/html as root and using 'grep' to capture flag1.
+- Accessing var/www/html as root and using `grep` to capture flag1.
     - Commands:
-        - `cd ../'
-        - 'cd var/www'
-        - 'cd html/'
-        - 'ls'
-        - 'grep -IR flag1 *'
+        - `cd ../`
+        - `cd var/www`
+        - `cd html/`
+        - `ls`
+        - `grep -IR flag1 *`
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/flag1.png)
 
