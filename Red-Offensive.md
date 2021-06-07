@@ -49,7 +49,7 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/wp1.png)
 
-   - Command: `$ wpscan --url http://192.168.1.110/wordpress --enumerate u`
+    - Command: `$ wpscan --url http://192.168.1.110/wordpress --enumerate u`
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/wpu.png)
 
