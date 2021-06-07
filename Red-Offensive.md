@@ -49,6 +49,9 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/wp1.png)
 
+    - Command: `$ wpscan --url http://192.168.1.110/wordpress`
+
+
 - Targeting user Michael
     - Small manual Brute Force attack to guess/finds Michael’s password
     - User password was weak and obvious
