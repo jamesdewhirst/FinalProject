@@ -49,23 +49,26 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/wp1.png)
 
-    - Command: `$ wpscan --url http://192.168.1.110/wordpress`
+   - Command: `$ wpscan --url http://192.168.1.110/wordpress --enumerate u`
 
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/wpu.png)
 
-- Targeting user Michael
-    - Small manual Brute Force attack to guess/finds Michael’s password
-    - User password was weak and obvious
-    - Password: michael
-- Capturing Flag 1: SSH in as Michael traversing through directories and files.
-    - Flag 1 found in var/www/html folder at root in service.html in a HTML comment below the footer.
+- Accessing user Michael
+    - due to a weak password we were able to guess Michael's password
+    - 'ssh michael@192.168.1.110'
+    - Password: 'michael'
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/SSH.png)
+
+- Accessing var/www/html as root and using 'grep' to capture flag1.
     - Commands:
-        - `ssh michael@192.168.1.110`
-        - `pw: michael`
-        - `cd ../`
-        - `cd ../`
-        - `cd var/www/html`
-        - `ls -l`
-        - `nano service.html`
+        - `cd ../'
+        - 'cd var/www'
+        - 'cd html/'
+        - 'ls'
+        - 'grep -IR flag1 *'
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/flag1.png)
 
 ![Flag 1 location](/Images/flag1-location.png "Flag 1 location")
 
