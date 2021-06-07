@@ -5,6 +5,8 @@
 - Critical Vulnerabilities
 - Exploitation
 
+---
+
 ### Exposed Services
 
 Nmap scan results for each machine reveal the below services and OS details:
@@ -32,6 +34,8 @@ The following vulnerabilities were identified on each target:
   - Vulnerabilities
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
+
+---
 
 ### Exploitation
 _TODO: Fill out the details below. Include screenshots where possible._
