@@ -73,7 +73,6 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 - **Flag2: fc3fd58dcdad9ab23faca6e9a36e5**
 - Exploit Used:
     - Same exploit used to capture flag1.
-    - Once `wp-config.php` was found, we gained access to the database (as Michael) MySQL was used to locate flag3.
         - Commands:
             - `cd ../`
             - `ls`
