@@ -33,6 +33,8 @@ The following vulnerabilities were identified on each target:
 * Weak User Password
 - WordPress - user enumeration and unsalted user password hash
 ** Escalation of privilege
+```
+
 ---
 
 ### Exploitation
