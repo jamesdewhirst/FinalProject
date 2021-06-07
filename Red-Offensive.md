@@ -15,8 +15,8 @@ $ nmap 192.168.1.110
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/1-nmap.png)
 
 This scan identifies the services below as potential points of entry:
+**Target 1**
 ```bash
-*Target 1*
 - Port 22/TCP 	    Open 	SSH
 - Port 80/TCP 	    Open 	HTTP
 - Port 111/TCP 	  Open 	rcpbind
