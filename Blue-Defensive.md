@@ -31,14 +31,13 @@ The following machines were identified on the network:
   - **Purpose**: Elasticsearch / Kibana / Logstash
   - **IP Address**: 192.168.1.100
 
-**Network Map**
+### Network Map**
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/NetworkMap.png)
 
 ### Description of Targets
-_TODO: Answer the questions below._
 
-The target of this attack was: `Target 1` (TODO: IP Address).
+The target of this attack was: `Target 1 192.168.1.110`
 
 Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers. As such, the following alerts have been implemented:
 
