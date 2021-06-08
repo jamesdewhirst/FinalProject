@@ -31,6 +31,10 @@ The following machines were identified on the network:
   - **Purpose**: Elasticsearch / Kibana / Logstash
   - **IP Address**: 192.168.1.100
 
+**Network Map**
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/NetworkMap.png)
+
 ### Description of Targets
 _TODO: Answer the questions below._
 
