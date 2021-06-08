@@ -56,7 +56,9 @@ Alert 1 is implemented as follows:
   - **Vulnerability Mitigated**: `By creating an alert, the security team can identify attacks & block the IP, change the password and close port 22`
   - **Reliability**: `No, this alert typically does not generate many false positives. This alert is highly reliable in identifying brute force attacks.`
 
+
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-1-http.png)
+---
 
 #### HTTP Request Size Monitor
 Alert 2 is implemented as follows:
@@ -65,7 +67,9 @@ Alert 2 is implemented as follows:
   - **Vulnerability Mitigated**: `By controlling the number of http request size through a filter, it helps protect against DDOS attacks.`
   - **Reliability**: `The alert could throw false positives. It is a medium when it comes to reliability. The possibility of larger non-malicious HTTP requests or legitimate HTTP traffice is still there.`
 
+
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-2-size.png)
+---
 
 #### CPU Usage Monitor
 Alert 3 is implemented as follows:
@@ -74,8 +78,9 @@ Alert 3 is implemented as follows:
   - **Vulnerability Mitigated**: `By controlling the CPU usage at 50% this alert will trigger a memory dump of stored information.`
   - **Reliability**: `This is a highly reliable alert. Even if there is not any malicious programs running, this can help determine where to improve CPU usage.`
 
-![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-3-CPU.png)
 
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-3-CPU.png)
+---
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
