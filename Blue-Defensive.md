@@ -85,21 +85,31 @@ Alert 3 is implemented as follows:
 
 ---
 
-_TODO Note: Explain at least 3 alerts. Add more if time allows._
-
----
-
-### Suggestions for Going Further (Optional)
-_TODO_: 
-- Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks. It is not necessary to explain _how_ to implement each patch.
+### Suggestions for Going Further
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
-- Vulnerability 1
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+- Excessive HTTP Errors
+  - **Patch**:
+  - ```
+    WordPress Hardening
+    - Implement regular updates to WordPress
+      - WordPress Core
+      - PHP Version
+      - Plugins
+    - Install Security Plugin(s)
+      - Ex. Wordfence (adds security functionality)
+    - Disable unused WordPress features and settings such as:
+      - WordPress XML-RPC (on by default)
+      - WordPress REST API (on by defalt)
+    - Block requests to `/?author=` by confuguring web server settings
+    - Remove WordPress logins from being publicly accessible specifically:
+      - `/wp-admin`
+      - `/wp-login.php`
+
+- **Why It Works**: ``
 - Vulnerability 2
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+  - **Patch**: ``
+  - **Why It Works**: ``
 - Vulnerability 3
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+  - **Patch**: ``
+  - **Why It Works**: ``
