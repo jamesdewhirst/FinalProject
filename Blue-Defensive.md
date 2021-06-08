@@ -7,6 +7,7 @@
 - Patterns of Traffic & Behavior
 - Suggestions for Going Further
 
+
 ### Network Topology
 
 The following machines were identified on the network:
@@ -31,7 +32,8 @@ The following machines were identified on the network:
   - **Purpose**: Elasticsearch / Kibana / Logstash
   - **IP Address**: 192.168.1.100
 
-### Network Map**
+
+### Network Map
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/NetworkMap.png)
 
