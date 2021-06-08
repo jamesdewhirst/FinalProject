@@ -58,6 +58,7 @@ Alert 1 is implemented as follows:
 
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-1-http.png)
+
 ---
 
 #### HTTP Request Size Monitor
@@ -69,6 +70,7 @@ Alert 2 is implemented as follows:
 
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-2-size.png)
+
 ---
 
 #### CPU Usage Monitor
@@ -80,6 +82,7 @@ Alert 3 is implemented as follows:
 
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-3-CPU.png)
+
 ---
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
