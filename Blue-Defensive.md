@@ -90,7 +90,7 @@ Alert 3 is implemented as follows:
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 - Excessive HTTP Errors
   - **Patch**:
-  - ```
+```
     WordPress Hardening
     - Implement regular updates to WordPress
       - WordPress Core
@@ -105,6 +105,7 @@ The logs and alerts generated during the assessment suggest that this network is
     - Remove WordPress logins from being publicly accessible specifically:
       - `/wp-admin`
       - `/wp-login.php`
+```
 
 - **Why It Works**: ``
 - Vulnerability 2
