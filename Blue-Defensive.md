@@ -82,5 +82,3 @@ Alert 3 is implemented as follows:
 
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-3-CPU.png)
-
----
