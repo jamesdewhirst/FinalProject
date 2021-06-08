@@ -30,6 +30,8 @@ You must inspect your traffic capture to answer the following questions:
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-3.png)
 
+---
+
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-4.png)
@@ -48,13 +50,28 @@ You must inspect your traffic capture to answer the following questions:
     - IP address = **172.16.4.205**
     - MAC address = **00:59:07:b0:63:a4**
     
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-5.png)
+
+---
+    
 2. What is the username of the Windows user whose computer is infected?
    - `ip.src==172.16.4.205 and kerberos.CNameString`
    - **matthijs.devries**
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-6.png)
+
+---
+
 3. What are the IP addresses used in the actual infection traffic?
    - **185.243.115.84**
       - **green.mattingsolutions.com**
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-7.png)
+
+---
+
 4. As a bonus, retrieve the desktop background of the Windows host.
+
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/empty.gif%253fss%26ss2img.gif)
 ---
 
@@ -65,5 +82,11 @@ You must inspect your traffic capture to answer the following questions:
     - Windows username = **elmer.blanco**
     - OS version = **Mozilla/5.0 (Windows NT 10.0; Win64; x64)**
 
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-8.png)
+
+---
+
 2. Which torrent file did the user download?
    - **Betty_Boop_Rhythm_on_the_Reservation.avi.torrent**
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-9.png)
