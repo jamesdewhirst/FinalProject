@@ -49,8 +49,6 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
-#### Name of Alert 1
-
 #### Excessive HTTP Errors
 Alert 1 is implemented as follows:
   - **Metric**: `http.response.status_code`
@@ -60,21 +58,21 @@ Alert 1 is implemented as follows:
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-1-http.png)
 
-#### Name of Alert 2
+#### HTTP Request Size Monitor
 Alert 2 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: `http.request.bytes`
+  - **Threshold**: `IS ABOVE 3500 FOR THE LAST 1 minute`
+  - **Vulnerability Mitigated**: `By controlling the number of http request size through a filter, it helps protect against DDOS attacks.`
+  - **Reliability**: `The alert could throw false positives. It is a medium when it comes to reliability. The possibility of larger non-malicious HTTP requests or legitimate HTTP traffice is still there.`
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-2-size.png)
 
-#### Name of Alert 3
+#### CPU Usage Monitor
 Alert 3 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: `system.process.cpu.total.pct`
+  - **Threshold**: `IS ABOVE 0.5 FOR THE LAST 5 minutes`
+  - **Vulnerability Mitigated**: `By controlling the CPU usage at 50% this alert will trigger a memory dump of stored information.`
+  - **Reliability**: `This is a highly reliable alert. Even if there is not any malicious programs running, this can help determine where to improve CPU usage.`
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-3-CPU.png)
 
