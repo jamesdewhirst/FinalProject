@@ -1,18 +1,44 @@
 # Network Forensic Analysis Report
 
 ## Time Thieves 
+
+At least two users on the network have been wasting time on YouTube. Usually, IT would'nt mind, but it seems the individuals have created their own web server on the corporate network. Here is the information Security currently has about the individuals.
+
+- They have set up an Active Directory Network
+- They are constantly watching videos on YouTube
+- Their IP addresses are somewhere in the range of `10.6.12.0/24`
+
 You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
    - **frank-n-ted.com**
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-1.png)
+
+---
+
 2. What is the IP address of the Domain Controller (DC) of the AD network?
    - **10.6.12.12**
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-2.png)
+
+---
+
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
    - Once you have found the file, export it to your Kali machine's desktop.
    - **/files/june11.dll HTTP/1.1**
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-3.png)
+
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/net-4.png)
+
 5. What kind of malware is this classified as?
    - **Trojan Malicious Malware**
+
+![]()
+
 ---
 
 ## Vulnerable Windows Machine
