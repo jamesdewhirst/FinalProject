@@ -37,6 +37,8 @@ The following machines were identified on the network:
 
 ![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/NetworkMap.png)
 
+---
+
 ### Description of Targets
 
 The target of this attack was: `Target 1 192.168.1.110`
@@ -48,13 +50,15 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
 #### Name of Alert 1
-##### Excessive HTTP Errors
 
+#### Excessive HTTP Errors
 Alert 1 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: `http.response.status_code`
+  - **Threshold**: `IS ABOVE 400 FOR THE LAST 5 minutes`
+  - **Vulnerability Mitigated**: `By creating an alert, the security team can identify attacks & block the IP, change the password and close port 22`
+  - **Reliability**: `No, this alert typically does not generate many false positives. This alert is highly reliable in identifying brute force attacks.`
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-1-http.png)
 
 #### Name of Alert 2
 Alert 2 is implemented as follows:
@@ -63,12 +67,17 @@ Alert 2 is implemented as follows:
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-2-size.png)
+
 #### Name of Alert 3
 Alert 3 is implemented as follows:
   - **Metric**: TODO
   - **Threshold**: TODO
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+![](https://github.com/jamesdewhirst/FinalProject/blob/main/Images/b-3-CPU.png)
+
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
