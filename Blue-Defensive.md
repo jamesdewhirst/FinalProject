@@ -81,6 +81,8 @@ Alert 3 is implemented as follows:
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
+---
+
 ### Suggestions for Going Further (Optional)
 _TODO_: 
 - Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks. It is not necessary to explain _how_ to implement each patch.
